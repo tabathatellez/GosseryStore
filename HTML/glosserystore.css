@@ -1,0 +1,844 @@
+@charset "utf-8";
+
+/*FAQS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+ 
+
+
+.faq-container {    
+  max-width: 800px;
+  margin: 50px auto 0 auto;
+  padding: 2rem;
+}
+.faq-container h2 {
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: #364f6b;
+}
+details { 
+  background-color: #f6f8fa;
+  width: 100%;
+  margin-bottom: 1rem;   
+  border-radius: 8px;  
+  border: 1px solid #d8e0e9;
+  color: #364f6b;
+  position: relative;  
+}
+details summary {  
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding: 1rem;
+  cursor: pointer;
+  list-style: none;
+}
+details p {
+  padding: 1rem;
+  margin: 0 1rem 1rem 1rem;
+  background: #f6f8fa;
+  border-left: 2px solid #364f6b;
+}
+
+details:hover,
+details[open] {
+  box-shadow: 5px 5px 15px #d9d9d9;
+}
+
+details[open] {
+  background: #ffffff;
+}
+
+details[open] summary {
+  font-weight: 600;
+}
+
+details summary::before {
+  position: absolute;
+    content: "👇";    
+    font-size: 1.75rem;
+    top: 10px;
+    right: 16px;  
+}
+
+details[open] summary::before {
+  -webkit-animation: rotate 0.6s ease-in-out both;
+          animation: rotate-emoji 0.6s ease-in-out both;
+}
+
+@-webkit-keyframes rotate-emoji {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+
+/*main*/
+main{
+	margin-top: -16px;
+	}
+/*main*/
+.mision{ display: inline-block;
+	width: 250px;
+	height: 250px;
+	background-color: #849164
+	}
+	
+
+/*INICIO SESIÓN*/.iniciosesiont {
+	color: #272727;
+}
+	section{
+height:100vh;
+width: 100%;
+background-position:center;
+background-repeat: no-repeat;
+background-attachment: fixed;background-size: 1920px;
+        }
+.image-1 {
+	/* The image used */
+	background-image: url("../MEDIOS/IM%C3%81GENES/iniciosesion.png");}
+
+.Escribecorreo {
+	width: 400px;
+	background-color: #F0EEEE;
+	border-color: #D5D0D0;
+	border-style: solid;
+	text-align: center;
+	font-family: "Avenir";
+}
+.escribecontraseña {width: 400px;
+	background-color: #F0EEEE;
+	border-color: #D5D0D0;
+	border-style: solid;
+	text-align: center;
+	font-family: "Avenir";
+}
+* {
+  box-sizing: content-box;
+}
+
+
+/* Add styles to the form container */
+.container {
+	position: relative;
+	right: 0;
+	padding-top: 7px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 30px;
+	background-color: white;
+	border: 63px solid #FFFFFF;
+	border-radius: 80px;
+	margin-top: 12px;
+	top: 60px;
+	font-family: "Avenir";
+}
+
+
+p5{
+	font-family: "Avenir";
+	font-size: xx-large;
+	color: #D64491;
+	}
+.btn {
+  background-color: #D64491;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+/*TERMINAINICIOSESION*/
+
+
+header {
+	width: auto;
+	height: 110px;
+	padding-left: 0px;
+	margin-top: 7px;
+	margin-left: 0px;
+	opacity: 1;
+	padding-top: 9px;
+}
+
+section3 {
+	float: left;
+	margin-left: 40px;
+	margin-top: 2px;
+	color: #000000;
+}
+section1 {
+	float: center;
+	margin-left: 315px;
+	width: 0px;
+	margin-right: 0px;
+}
+section2 {
+	float: right;
+	margin-top: 6px;
+	margin-right: 40px;
+	margin-left: 0px;
+}
+section4{
+	float: right;
+	padding-left: 75px;
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	top: 0px;
+	margin-top: -59px;
+	margin-right: 35px;
+}
+section5{
+	float: right;
+	margin-top: -55px;
+	margin-right: 17px;
+	}
+
+.NAV {
+	width: auto;
+	background-color: #000000;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	}
+			
+	a {
+	color: #FFFFFF;
+	text-align: center;
+	width: 0;
+	font-family: "Avenir";
+	
+}
+	nav ul li a {
+	text-decoration: none;
+		list-style-type: none;
+
+background-color: NONE;
+	padding: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+	a:link {
+	color: white;
+	text-align: center; 
+
+}
+		
+	a:visited {
+	color: white;
+	text-align: center;
+}	
+	
+breadcrumb {
+	background-color: NONE;
+	width: 1080px;
+	}
+
+.buscarboton {
+	background-color: #000000;
+	color: #FFFFFF;
+	border-color: #000000;
+	font-family: "Avenir";
+	font-size: 12px;
+}
+
+.encuentratugloss {
+	color: #FFFFFF;
+	font-family: "Avenir";
+	font-size: 12px;
+	background-color: #000000;
+	-webkit-box-shadow: 0px 0px #000000;
+	box-shadow: 0px 0px #000000;
+	border-bottom-style: solid;
+	border-color: #FFFFFF;
+	border-radius: 7px;
+	text-align: left;
+	padding-top: 0px;
+	margin-top: 12px;
+}
+
+
+footer {width: auto;
+background-color: black;
+height: 200px;}
+
+section7 {
+	
+	float: left;
+	margin-left: 25px;
+	margin-top: 20px;
+	}
+
+
+section8 {
+	float: left;
+	margin-left: 175px;
+	margin-top: 50px;
+	list-style-type: none;}
+section9 {
+	float: left;
+	margin-left: 180px;
+	margin-top: 35px;
+	list-style-type: none;
+	font-family: "Avenir";
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: left;
+	}
+section10 {
+	float: right;
+	margin-top: 60px;
+	list-style-type: none;
+	font-family: "Avenir";
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: left;
+	margin-right: 40px;
+	}
+
+
+.escribetucorreo {
+	color: #FFFFFF;
+	font-family: "Avenir";
+	border-color: #FFFFFF;background-color: #000000;
+	border-radius: 7px;
+	text-align: center;
+}
+
+.enviar {
+	color: #000000;
+}
+
+	section16{
+	float: left;
+	margin-bottom: -230px;
+	margin-left: -110px;
+	margin-top: -120px;
+	webkit-scrollbar: none;
+}
+
+section12 {
+	font-family: "Avenir";
+	color: #836C52;
+	display: inline-block;
+	text-align: left;
+	padding-right: 25px;
+	padding-bottom: 30px;
+	padding-top: 0px;
+	margin-left: 400px;
+	font-size: large;
+}
+
+section13 {
+	font-family: "Avenir";
+	color: #836C52;
+	display: inline-block;
+	text-align: left;
+	padding-right: 25px;
+	padding-bottom: 30px;
+	padding-top: 10px;
+	font-size: large;	
+}
+section14 {
+	font-family: "Avenir";
+	color: #836C52;
+	display: inline-block;
+	;
+	text-align: left;
+	padding-right: 25px;
+	padding-bottom: 30px;
+	padding-top: 10px;
+	font-size: large;
+}
+
+section15{
+
+}
+
+section17{
+	
+	
+	
+}
+section177{
+	margin-left: 45px;
+}
+section18{
+	margin-left: 45px;display: inline-block;
+}
+
+section19{display: inline-block;
+	font-family: "Avenir";
+	font-size: large;
+	float: right;
+	text-align: left;
+	vertical-align: bottom;
+	margin-right: 50px;	
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;font-family: "Avenir";
+	margin: .4rem 0;
+	color: #836C52;
+	font-weight: bold;
+}
+
+input
+{
+	border-color: #836C52;
+	border-radius: 8px;}
+section20{
+	margin-left: -130px;
+}
+
+section22{
+	margin-left: 45px;float: left; display: inline-block} 
+.cantidad {
+	width: 520px;
+	border-radius: 42px;
+	border-color: #836C52;
+	text-align: center;
+	border-style: solid;
+}
+
+section24 {
+	}
+p1{
+	font-family: "Avenir";
+	color: #849164;
+	padding-left: 70px;
+	font-size: 22px;
+	font-weight: bold;
+	}
+	
+	.EMAIL {
+	margin-left: 70px;
+	padding-left: 10px;
+	color: #849164;
+	font-family: "Avenir";
+	border: 2px solid #908BBA;
+	background-color: #F0EEEE;
+	
+}
+p2{
+	font-family: 'Avenir';
+	color: #000000;
+	padding-left: 70px;
+	font-size: small;
+	}
+	p3{
+	font-family: "Avenir";
+	color: #849164;
+	padding-left: 70px;
+	font-weight: bolder;
+	font-size: large;
+	}
+section25 {
+	display: inline-block;
+	}
+section26{
+	display: inline-block;
+	float: right;
+	margin-right: 200px;
+	margin-top: 0px;
+	}
+.codigo{
+	font-family: "Avenir";
+	text-align: center;
+	color: #836C52;
+	border: 2px solid #836C52;
+	margin-left: 10px;
+	background-color: #F0EEEE;
+	}
+.button1{
+	font-family: "Avenir";
+	text-align: center;
+	color: #FFFFFF;
+	border: 2px solid #836C52;
+	background-color: #836C52;
+	border-radius: 7px;
+	margin-left: 18px;	
+	}
+.button2{
+	font-family: "Avenir";
+	text-align: center;
+	color: #849164;
+	border-color: #F0EEEE;
+	border-style: solid;
+	background-color: #F0EEEE;
+	border-radius: 7px;
+	margin-left: 18px;
+}
+.button3{
+	font-family: "Avenir";
+	text-align: center;
+	color: #FFFFFF;
+	border: 2px solid #849164;
+	background-color: #849164;
+	border-radius: 7px;
+	margin-left: 61px;
+	width: 101px;
+	height: 45px;
+	font-size: x-large;
+}
+
+/*PAGINAPRODUCTOS*/
+p6{font-size: x-large;
+	text-align: left;
+	color: #D64491;
+	}
+p7{font-size: x-large;
+	text-align: left;
+	color: #000000;
+	}
+section28 {
+	display: inline-block;
+	margin-left: 65px;
+	font-family: "Avenir";
+	font-size: x-large;
+	text-align: left;
+	color: #D64491;
+	font-weight: bolder;
+	float: center;
+}
+section29{
+	display: inline-block;
+	margin-left: 65px;
+	font-family: "Avenir";
+	font-size: x-large;
+	text-align: left;
+	color: #D64491;
+	font-weight: bolder;float: center;
+
+}
+section30{
+	display: inline-block;
+	margin-left: 65px;
+	font-family: "Avenir";
+	font-size: x-large;
+	text-align: left;
+	color: #D64491;
+	font-weight: bolder;float: center;
+
+}
+section31{
+	display: inline-block;
+	margin-left: 65px;
+	font-family: "Avenir";
+	font-size: x-large;
+	text-align: left;
+	color: #D64491;
+	font-weight: bolder;
+
+}
+section32{
+	display: inline-block;
+	margin-left: 65px;
+	font-family: "Avenir";
+	font-size: x-large;
+	text-align: left;
+	color: #D64491;
+	font-weight: bolder;
+
+}
+section33{
+	display: inline-block;
+	margin-left: 65px;
+	font-family: "Avenir";
+	font-size: x-large;
+	text-align: left;
+	color: #D64491;
+	font-weight: bolder;
+
+}
+section34{
+	display: inline-block;
+	margin-left: 65px;
+	font-family: "Avenir";
+	font-size: x-large;
+	text-align: left;
+	color: #D64491;
+	font-weight: bolder;
+
+}
+section35{
+	display: inline-block;
+	margin-left: 65px;
+	font-family: "Avenir";
+	font-size: x-large;
+	text-align: left;
+	color: #D64491;
+	font-weight: bolder;
+
+}
+section36{
+	display: inline-block;
+	margin-left: 65px;
+	font-family: "Avenir";
+	font-size: x-large;
+	text-align: left;
+	color: #D64491;
+	font-weight: bolder;
+
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+section112{
+	}
+/*TERMINAPAGINAPRODUCTOS*/
+
+/*FAVORITOS*/
+section37{
+	display: inline-block;
+	margin-left: 150px;
+	font-family: "Avenir";
+	font-size: x-large;
+	text-align: left;
+	color: #836C52;
+	font-weight: bolder;
+
+}
+section38{
+	display: inline-block;
+	margin-left: 50px;
+	font-family: "Avenir";
+	font-size: x-large;
+	text-align: left;
+	color: #836C52;
+	font-weight: bolder;
+
+}
+.onmouseenter {
+	margin-bottom: 8px;
+}
+.onmouseleave {
+	margin-bottom: 8px;
+
+}
+
+section111 
+{
+	display: inline-block;
+	margin-left: 90px;
+	
+}
+section1111 
+{
+	
+	margin-left: 90px;
+}
+
+.botonrosapv {
+	text-align: center;
+	font-family: "Ace Sans Demo";
+	color: #FFFFFF;
+	background-color: #D64491;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: #D64491;
+	margin-left: 664px;
+}
+
+
+/*contacto*/
+
+
+
+.contacto {
+	display: inline-block;
+	width: 11cm;
+	height: 7cm;
+	margin-top: 12px;
+	margin-right: 4px;
+	margin-bottom: 12px;
+	margin-left: 109px;
+	padding-top: 39px;
+	padding-right: 39px;
+	padding-bottom: 39px;
+	padding-left: 38px;
+	background-color: #D64692;
+	border-radius: 70px 70px 70px 0px;
+	text-align: center;
+	color: #FFFFFF;
+	float: left;
+}
+
+.contacto .subtitulos {
+	font-family: "Avenir";
+	clear: both;
+}
+.contacto .contenido {
+	font-family: "Avenir";
+	font-style: italic;
+}
+.contacto img {
+    margin-left: 20px;
+    margin-top: 16px;
+}
+.contacto #map-container-google-2 {
+    border-radius: 4px;
+}
+
+section115{
+	}
+.container2 {
+	position: center;
+	background-color: #849164;
+	border: 20px solid #849164;
+	border-radius: 60px;
+	margin-top: 171px;
+	font-family: "Avenir";
+	width: 700px;
+	margin-left: 260px;
+	color: #FFFFFF;
+	text-align: left;
+	padding-top: 0px;
+	padding-left: 33px;
+}
+p9{
+	font-family: "Avenir";
+	color: #FFFFFF;
+	font-size: x-large;
+	text-align: center;
+	margin-left: 135px;
+	}
+.textocontacto {font-family: "Avenir"; color: #FFFFFF;
+}
+.contactof {
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-radius: 39px;
+	text-align: center;
+	width: 347px;
+}
+
+.rosa{
+	background-color: #D64491;
+	border-style: solid;
+	border-color: #D64491;
+	border-radius: 38px;
+	color: #FFFFFF;
+}
+/*qya*/
+.pyr {
+    width: 959px;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 59px;
+    padding-top: 44px;
+    padding-right: 44px;
+    padding-bottom: 44px;
+    padding-left: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+body main sectionqya {
+    background-image: url(../../../../../8vo%20Semestre/interfases/Equipo8_Interfases/medios/im%C3%A1genes/fondo-13.png);
+    width: auto;
+    height: auto;
+}
+.fondoqya {
+    background-image: url("../MEDIOS/IMÁGENES/fondo.jpg");
+    width: auto;
+    height: auto;
+    padding-left: 36px;
+}
+
+
+
+.faq-container {    
+  max-width: 800px;
+  margin: 50px auto 0 auto;
+  padding: 2rem;
+font-family:  "Avenir LT 45 Book"
+}
+.faq-container h2 {
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: #364f6b;
+	font-family: "LEIXO DEMO" 
+}
+details { 
+  background-color: #f6f8fa;
+  width: 100%;
+  margin-bottom: 1rem;   
+  border-radius: 8px;  
+  border: 1px solid #d8e0e9;
+  color: #364f6b;
+  position: relative;  
+}
+details summary {  
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding: 1rem;
+  cursor: pointer;
+  list-style: none;
+}
+details p {
+  padding: 1rem;
+  margin: 0 1rem 1rem 1rem;
+  background: #f6f8fa;
+  border-left: 2px solid #364f6b;
+}
+
+details:hover,
+details[open] {
+  box-shadow: 5px 5px 15px #d9d9d9;
+}
+
+details[open] {
+  background: #ffffff;
+}
+
+details[open] summary {
+  font-weight: 600;
+}
+
+details summary::before {
+  position: absolute;
+    content: "🠹";    
+    font-size: 1.75rem;
+    top: 10px;
+    right: 16px;  
+}
+
+details[open] summary::before {
+  -webkit-animation: rotate 0.6s ease-in-out both;
+          animation: rotate-emoji 0.6s ease-in-out both;
+}
+
+@-webkit-keyframes rotate-emoji {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}.pyr .faq-container .subtitulos {
+}
